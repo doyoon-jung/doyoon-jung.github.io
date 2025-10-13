@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Do-Yoon Jung - Paper</title>
+  <meta name="description" content="Doyoon-Jung Papers">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="topnav" role="navigation" aria-label="Main navigation">
+    <div class="wrap">
+      <a class="brand" href="index.html">Do-Yoon Jung</a>
+      <div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu">☰</button>
+        <div class="navlinks" id="mobile-menu">
+          <a href="index.html">About</a>
+          <a href="resume.html">Resume</a>
+          <a href="paper.html">Papers</a>
+          <a href="conference.html">Conferences</a>
+          <a href="work.html">Works</a>
+          <a href="hobbies.html">Hobbies</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>Papers</h1>
+      <section id="papers" class="card section">
+        <p>See <a href="https://scholar.google.com/citations?user=AijWnAEAAAAJ&hl=ko" target="_blank">Google Scholar</a> for a full list of publications.</p>
+        <p>See <a href="https://www.riss.kr/search/Search.do?isDetailSearch=Y&searchGubun=true&viewYn=OP&sflag=1&fsearchMethod=searchDetail&isFDetailSearch=N&field1=znTitle&keyword1=&op1=AND&field2=znCreator&keyword2=%EC%A0%95%EB%8F%84%EC%9C%A4&op2=AND&field3=znSubject&keyword3=&op3=AND&field4=znAbstract&keyword4=&op4=AND&field5=znKtoc&keyword5=&op5=AND&field6=znPublisher&keyword6=&op6=AND&field7=znMajor&keyword7=&op7=AND&field8=tutor&keyword8=&op8=AND&field9=znAll&keyword9=&op9=AND&field10=znAll&keyword10=" target="_blank">Riss</a> for a full list of publications.</p>
+        <div class="papers-list">
+
+          <!-- Doctoral(SCI) -->
+          <div class="papers-item" style="display:flex;gap:16px;margin-bottom:12px">
+            <div style="flex:1">
+              <div style="color: rgb(226, 4, 126); font-size:20px;margin-top:6px; text-align: center;">
+                Research Article 1 - 2025. 8(SCI)
+              </div>
+              <div style="font-size:25px;font-weight:700;text-align: center;">Analysis of OpenCV Security Vulnerabilities in YOLO v10-Based IP Camera Image Processing Systems for Disaster Safety Management</div>
+              <div class="muted" style="font-size:20px;text-align: center;"><a href="https://doi.org/10.3390/electronics14163216" target="_blank">https://doi.org/10.3390/electronics14163216</a></div>
+              <div style="color: rgb(226, 104, 4); font-size:20px;margin-top:6px; text-align: center;">Do-Yoon Jung, Nam-Ho Kim*</div>
+              <div style="color: rgb(226, 4, 126); font-size:20px;margin-top:6px; text-align: center;">
+                Department of Computer Engineering, Honam University, Gwangju 62299, Korea
+              </div>
+              <div style="color: rgb(226, 104, 4); font-size:20px;margin-top:6px; text-align: center;">
+                <img src="assets/img/25_paper_sci1.png" alt="SCI paper 1" style="width:100%;height:100%;object-fit:cover">
+              </div>
+              <div style="font-size:15px;font-weight:700;">Abstract</div>
+              <div style="font-size:13px;font-weight:400;">
+                This paper systematically analyzes security vulnerabilities that may occur during the OpenCV library and IP camera linkage process for the YOLO v10-based IP camera image processing system used in the disaster safety management field. Recently, the use of AI-based real-time image analysis technology in disaster response and safety management systems has been increasing, but it has been confirmed that open source-based object detection frameworks and security vulnerabilities in IP cameras can pose serious threats to the reliability and safety of actual systems. In this study, the structure of an image processing system that applies the latest YOLO v10 algorithm was analyzed, and major security threats (e.g., remote code execution, denial of service, data tampering, authentication bypass, etc.) that might occur during the IP camera image collection and processing process using OpenCV were identified. In particular, the possibility of attacks due to insufficient verification of external inputs (model files, configuration files, image data, etc.), failure to set an initial password, and insufficient encryption of network communication sections were presented with cases. These problems could lead to more serious results in mission-critical environments such as disaster safety management.
+              </div>
+            </div>
+          </div>
+
+          <!-- Master(SCI) -->
+          <div class="papers-item" style="display:flex;gap:16px;margin-bottom:12px">
+            <div style="flex:1">
+              <div style="color: rgb(226, 4, 126); font-size:20px;margin-top:6px; text-align: center;">
+                Research Article 2 - 2024. 7(SCI)
+              </div>
+              <div style="font-size:25px;font-weight:700;text-align: center;">A Study on GAN-Based Car Body Part Defect Detection Process and Comparative Analysis of YOLO v7 and YOLO v8 Object Detection Performance</div>
+              <div class="muted" style="font-size:20px;text-align: center;"><a href="https://doi.org/10.3390/electronics14163216" target="_blank">https://doi.org/10.3390/electronics13132598</a></div>
+              <div style="color: rgb(226, 104, 4); font-size:20px;margin-top:6px; text-align: center;">1. Do-Yoon Jung, 2. Yeon-Jae Oh, 1. Nam-Ho Kim*</div>
+              <div style="color: rgb(226, 4, 126); font-size:20px;margin-top:6px; text-align: center;">
+                1. Department of Computer Engineering, Honam University, Gwangju 62299, Korea<br>
+                2. Department of Cultural Contents, Chonnam National University, Yeosu 59626, Republic of Korea
+              </div>
+              <div style="color: rgb(226, 104, 4); font-size:20px;margin-top:6px; text-align: center;">
+                <img src="assets/img/25_paper_sci2.png" alt="SCI paper 2" style="width:100%;height:100%;object-fit:cover">
+              </div>
+              <div style="font-size:15px;font-weight:700;">Abstract</div>
+              <div style="font-size:13px;font-weight:400;">
+                The main purpose of this study is to generate defect images of body parts using a GAN (generative adversarial network) and compare and analyze the performance of the YOLO (You Only Look Once) v7 and v8 object detection models. The goal is to accurately judge good and defective products. Quality control is very important in the automobile industry, and defects in body parts directly affect vehicle safety, so the development of highly accurate defect detection technology is essential. This study ensures data diversity by generating defect images of car body parts using a GAN and through this, compares and analyzes the object detection performance of the YOLO v7 and v8 models to present an optimal solution for detecting defects in car parts. Through experiments, the dataset was expanded by adding fake defect images generated by the GAN. The performance experiments of the YOLO v7 and v8 models based on the data obtained through this approach demonstrated that YOLO v8 effectively identifies objects even with a smaller amount of data. It was confirmed that defects could be detected. The readout of the detection system can be improved through software calibration.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="papers" class="card section">
+        <div class="papers-list">
+
+          <!-- Doctoral(KCI) -->
+          <div class="papers-item" style="display:flex;gap:16px;margin-bottom:12px">
+            <div style="flex:1">
+              <div style="color: rgb(226, 4, 126); font-size:20px;margin-top:6px; text-align: center;">
+                Research Article 3 - 2025. 8(KCI)
+              </div>
+              <div style="font-size:25px;font-weight:700;text-align: center;">A Study on the Development of a Career aptitude Test System in the Form of a Customized Multi-Layer Questionnaire Using sLLM</div>
+              <div class="muted" style="font-size:20px;text-align: center;"><a href="https://dx.doi.org/10.30693/SMJ.2025.14.8.42" target="_blank">https://dx.doi.org/10.30693/SMJ.2025.14.8.42</a></div>
+              <div style="color: rgb(226, 104, 4); font-size:20px;margin-top:6px; text-align: center;">Do-Yoon Jung, Nam-Ho Kim*</div>
+              <div style="color: rgb(226, 4, 126); font-size:20px;margin-top:6px; text-align: center;">
+                Department of Computer Engineering, Honam University, Gwangju 62299, Korea
+              </div>
+              <div style="color: rgb(226, 104, 4); font-size:20px;margin-top:6px; text-align: center;">
+                <img src="assets/img/25_paper_kci1.png" alt="KCI paper 1" style="width:100%;height:100%;object-fit:cover">
+              </div>
+              <div style="font-size:15px;font-weight:700;">Abstract</div>
+              <div style="font-size:13px;font-weight:400;">
+                This paper aims to build an evaluation result production system that integrates career aptitude tests, customized multi-job aptitude questionnaires, and NCS (National Competency Standards) using sLLM (small Large Language Model). This study enables more accurate career aptitude evaluation by automatically generating questions that fit the characteristics of respondents through natural language processing technology using web-based applications and open source LLaMa3 Instruct models. To measure the performance of natural language processing, Jaccard similarity, Cosine similarity, and SequenceMatcher similarity analysis were used to compare the performance of career aptitude-related data sets. As a result of the experiment, among 2,051 data sets, 2,049, 1,962, and 1,963 SequenceMatcher, Jaccard, and Cosine similarities exceeding 0 were counted, respectively, and the average similarities were 44.3% for SequenceMatcher, 30.9% for Jaccard, and 52.4% for Cosine. Additionally, the average similarity rates of the dataset were calculated as 99.9% for SequenceMatcher, 95.6% for Jaccard, and 95.7% for Cosine.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-wrap">
+      <div class="col">
+        <h4>Contact</h4>
+        <p class="copyright">Email: <a href="mailto:dyjung.dr@my.honam.ac.kr">dyjung.dr@my.honam.ac.kr</a><br>
+        Alternate: <a href="mailto:rabbitsun2@gmail.com">rabbitsun2@gmail.com</a></p>
+      </div>
+
+      <div class="col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="paper.html">Papers</a></li>
+          <li><a href="conference.html">Conferences</a></li>
+          <li><a href="work.html">Works</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+      </div>
+
+      <div class="col" style="max-width:300px;text-align:right">
+        <h4>Follow</h4>
+        <p><a href="https://www.linkedin.com/in/doyoon-jung-407734256/" target="_blank">LinkedIn</a> · <a href="https://github.com/rabbitsun2" target="_blank">GitHub</a></p>
+        <p class="copyright" style="margin-top:8px">© 2025 Do-Yoon Jung. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
